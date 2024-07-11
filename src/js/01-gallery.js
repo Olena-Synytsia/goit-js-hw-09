@@ -89,6 +89,6 @@ function createGallery(images) {
 container.insertAdjacentHTML('beforeend', createGallery(images));
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  animationSpeed: 300,
-  addClass: 'my-custom-lightbox',
+  captionsData: 'alt',
+  captionDelay: 250,
 });

@@ -56,4 +56,49 @@ ul {
 
 .sl-wrapper {
   background-color: #2e2f42cc;
+  width: 1440px !important;
+}
+
+.sl-close {
+  width: 32px !important;
+  height: 32px !important;
+  color: #ffffff !important;
+  font-family: Montserrat !important;
+  font-size: 30px !important;
+  font-weight: 400 !important;
+}
+
+.sl-prev {
+  width: 24px !important;
+  height: 24px !important;
+  color: #ffffff !important;
+  font-family: Montserrat !important;
+  font-weight: 400 !important;
+}
+
+.sl-next {
+  width: 24px !important;
+  height: 24px !important;
+  color: #ffffff !important;
+  font-family: Montserrat !important;
+  font-weight: 400 !important;
+}
+
+.sl-counter {
+  color: #ffffff !important;
+  font-family: Montserrat !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  letter-spacing: 0.04em !important;
+  text-align: left !important;
+}
+
+.sl-caption {
+  font-family: Montserrat !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  letter-spacing: 0.04em !important;
+  text-align: left !important;
 }
