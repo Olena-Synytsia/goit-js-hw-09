@@ -39,5 +39,7 @@ function handleFormSubmit(event) {
   console.log(formData);
 
   localStorage.removeItem('feedback-form-state');
-  event.currentTarget.reset();
+  formData.email = '';
+  formData.message = '';
+  form.reset();
 }
